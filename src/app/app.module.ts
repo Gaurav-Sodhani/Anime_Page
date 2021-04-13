@@ -14,8 +14,15 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: 'naruto', component: NarutoComponent }, 
+{ path: 'naruto', 
+component: NarutoComponent,
+outlet: 'popup',
+},
+  
 ];
+
+
+
 
 
 @NgModule({
