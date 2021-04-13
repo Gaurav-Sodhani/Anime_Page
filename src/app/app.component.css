@@ -1,0 +1,37 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .container{
+    align-content: center;
+    display: flex;  
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .back-image{
+    background-color: #bec6e2;
+  }
+  .front-image {
+    
+    margin: auto 10%;
+    background-image: url(https://i.pinimg.com/originals/6f/2d/34/6f2d34fe6c8746c56c14fbc55308ef99.jpg) ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  .example-card {
+    width: 250px;
+    border-radius: 15px ;
+    margin: 30px 25px;
+    
+  }
+  
+  .card-title {
+      font-size: 135%;
+      
+  }
+
+  .card-content {
+      margin-left: 10px;
+  }
